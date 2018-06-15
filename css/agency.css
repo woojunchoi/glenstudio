@@ -172,7 +172,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("https://www.bergreenphotography.com/wp-content/uploads/2018/02/colorado-adventure-wedding-photographer-01.jpg");
+  background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/27750101_1673342412732164_7225653002119482638_n.jpg?_nc_cat=0&oh=0b8e5851087b845009d46d7517849c80&oe=5BC2BA09");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -188,18 +188,24 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 10px;
+  font-size: 20px;
+  font-weight: 700;
   /* font-style: italic; */
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.row {
+  display:flex;
+  justify-content: center;
+}
+
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 25px;
+  line-height: 10px;
+  margin-bottom: 40px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -209,16 +215,16 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
-    font-style: italic;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
-    line-height: 75px;
+    line-height: 30px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
